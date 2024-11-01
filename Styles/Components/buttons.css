@@ -1,0 +1,109 @@
+
+
+.buttons-list > li > button{
+    width: 104px;
+    height: 42px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.50);
+    border: none;
+    cursor: pointer;
+ 
+}
+
+.home > a {
+    width: 94px;
+    height: 40px;
+    color: rgba(110, 127, 115, 0.00);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#C79F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about {
+    padding: 5px;
+    a {
+        width: 94px;
+        height: 40px;
+        color: rgba(110, 127, 115, 0.00);
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #00BD1C;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.project a {
+    width: 94px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.00);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0064AC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.habilities {
+    
+    padding-inline: 5px;
+    width: 106px;
+    a {
+        width: 108px;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.00);
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #00BD1C;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.contact > a {
+    width: 94px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.00);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9C8700;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons-list > li > button:hover{
+    background: linear-gradient(180deg, #FD0 0%, #0095FF 100%);
+         .home-link, .contact-link {
+            color: #C79F00;
+            -webkit-text-stroke-color: #FFF;
+        }
+
+        .about-link, .habilities-link {
+            color: #00BD1C;
+            -webkit-text-stroke-color: #FFF;
+        }
+
+        .project-link {
+            color:#0064AC;
+            -webkit-text-stroke-color: #FFF;
+        }
+
+}

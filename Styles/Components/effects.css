@@ -1,0 +1,24 @@
+
+
+.web-image:hover{
+    transform: none;
+    height: 287px;
+    width: 250px;
+    transition: all 0.5s;
+}
+
+.animation-image:hover{
+    transform: translateY(-20px);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#ancla-home{
+    scroll-margin-top: 100px;
+}
+
+#ancla-about{ 
+    scroll-margin-top: 50px;
+}

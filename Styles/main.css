@@ -1,0 +1,54 @@
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    min-width: 1300px;
+    height: 637px;
+    background: conic-gradient(from 270deg at 50% 50%, #FD0 38.630279302597046deg, #00FFAE 141.57681941986084deg, #0095FF 269.31560754776deg) no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.37) 0.09%, rgba(0, 0, 0, 0.07) 99.91%);
+    width: 50%;
+    height: 637px;
+    gap: 50px;
+
+    h2 {
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 441px;
+    }
+
+    p {
+        color: #FFF;
+        font-family: "Patrick_Hand";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.container-2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-container{
+    width: 411px;
+    height: 396.279px;
+    background: url(../images/Favicon.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 35%;
+}
