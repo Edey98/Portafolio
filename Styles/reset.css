@@ -61,9 +61,6 @@ a {
     src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
 }
 
-* {
-    font-family: "Cormorand-Garamond";
-}
 
 h1, h2 {
     font-family: "Patrick_Hand";

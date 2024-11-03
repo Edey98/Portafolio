@@ -107,3 +107,31 @@
         }
 
 }
+
+.button-ex {
+    
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+    border-radius: 118px;
+    text-align: right;
+    color: #F9F9F7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: #AD343E;
+    border-color: #AD343E;
+    border-style: solid;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.button-ex:active {
+    background-color: #ad343ebb;
+    color: white;
+    border-color: #ad343ebb;
+    }
